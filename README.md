@@ -2,7 +2,7 @@
 
 1 Description
 
-In this assignment, you will be implementing a regularized, logistic regression to classify text documents. The implementation will be in Python, on top of Spark. To handle the large data set that we will be
+In this assignment, you will be implementing a regularized, logistic regression to classify text documents. The implementation will be in Python, on top of Spark. To handle the large data set that we will be
 giving you, it is necessary to use Amazon AWS.
 You will be asked to perform three subtasks: (1) data preparation, (2) learning (which will be done via
 gradient descent) and (3) evaluation of the learned model.
@@ -90,7 +90,7 @@ If you don’t have three false positives, just use the ones that you had (if an
   
 4 Important Considerations
   
-Some notes regarding training and implementation. As you implement and evaluate your gradient descent algorithm, here are a few things to keep in mind.
+Some notes regarding training and implementation. As you implement and evaluate your gradient descent algorithm, here are a few things to keep in mind.
 
 1. To get good accuracy, you will need to center and normalize your data. That is, transform your data so
 that the mean of each dimension is zero, and the standard deviation is one. That is, subtract the mean
